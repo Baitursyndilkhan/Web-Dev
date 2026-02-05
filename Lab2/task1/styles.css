@@ -1,0 +1,155 @@
+.auth-page {
+    background-color: #f2f4f7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 160px;
+    gap:80px;
+}
+
+.intro{
+    max-width: 500px;
+}
+.intro img{
+    width: 320px;
+    height: 160px;
+    margin: -28px;
+}
+
+.logo{
+    width: 320px;
+    margin-bottom: 16px;
+}
+.text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;    
+    font-size:28px;
+    line-height:28px; 
+    margin: 0;  
+
+}
+
+.auth{
+    width: 396px;
+    height: 600px;
+
+}
+
+.login{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+              0 8px 16px rgba(0,0,0,0.1);
+}
+
+.login input {
+  padding: 14px;
+  font-size: 1rem;
+
+  border: 1px solid #ddd;
+  border-radius: 6px;
+
+  outline: none;
+}
+
+.login input:focus {
+  border-color: #1877f2;
+}
+
+.submit {
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  background: #1877f2;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login input {
+  padding: 14px;
+  font-size: 1rem;
+
+  border: 1px solid #ddd;
+  border-radius: 6px;
+
+  outline: none;
+}
+
+.login input:focus {
+  border-color: #1877f2;
+}
+
+
+.btn{
+    padding: 14px;
+    font-size: 1.1 rem;
+    font-weight: 600;
+
+    background: #1877f2;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+    cursor:pointer ;
+
+}
+
+.forgot{
+    color: #0866ff;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 0.9 rem;
+    text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.divider{
+    height: 1px;
+    background: #dadde1;
+    margin: 8px 0;
+}
+
+.btn-sign{
+    text-align: center;
+    margin-left: 90px;
+    padding:12px 14px;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: white;
+    background-color: #42b72a;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+}
+
+.link{
+    text-align: center;
+    margin: 10px;
+}
+.link a {
+    margin-top: 18px;
+    text-decoration: none;
+    color: black;
+
+}
+.link a:hover {
+  text-decoration: underline; /* show underline on hover */
+}

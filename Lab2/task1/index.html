@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="auth-page">
+
+        <section class="intro">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook">
+            <p class="text">Connect with friends and the world <br> around you on Facebook.</p>
+        </section>
+        <section class="auth">
+            <div action="/login" method="post" class="login">
+                
+                <input 
+                 type="text"
+                 placeholder="Email or phone number" 
+                 name="email"
+                 required>
+
+                
+                <input type="password"
+                 placeholder="Password"
+                 name="password"
+                 required >
+
+                <button class="btn" type="submit">Log in</button>
+                <a class="forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgot password? </a>
+                <div class="divider"></div>
+
+                <div><form action="/login"> <button class="btn-sign" type="submit">Create new account</button> </form> </div>
+
+            </div>
+                <div class="link"> <a href="https://www.facebook.com/pages/create/?ref_type=registration_form"><strong>Create a Page</strong></a> for a celebrity, brand or business.</div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
