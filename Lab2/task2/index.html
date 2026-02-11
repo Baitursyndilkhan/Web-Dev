@@ -1,35 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Instagram</title>
 </head>
+
 <body>
-    <main class="main-page">
-        <section class="intro">
-            <img class="logo" src='https://i.pinimg.com/736x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg'>
-            <p class="text" >See everyday moments from your <br> close friends.</p>
 
-            <div class="media"><img class="photo   " src="https://static.cdninstagram.com/rsrc.php/v4/yF/r/reN9rvYdLTB.png" alt="photo"></div>
-        </section>  
+    <main>
 
-        <section class="auth">
-            <div class="auth-card">
-            <p>Log into Instagram</p>
-            <form class="log" action="/login" method="post">
-                <input class="email" type="text" placeholder="Mobile number,username or email">
-                <input class="password" type="password" name="password" placeholder="Password">
-                <button class="btn">Log in</button>
-            </form>
-            <a href="#" class="forgot" >Forgot password?</a>
-
-            <button type="button">Log in with Facebook</button>
-            <button type="button">Create new account</button>
+        <div class="left">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/960px-Instagram_logo_2022.svg.png?20220518162235"
+                    alt="instagram logo">
             </div>
+            <div class="hero-content">
+                <div class="header-text">
+                    <h1>See everyday moments from your <br> <span>close friends</span>.</h1>
+                </div>
+                <div class="header-image">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v4/yt/r/pAv7hjq-51n.png" alt="hero content image">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="log-in">
+                <h1 >Log into Instagram</h1>
 
-            <div class="meta"><img class="meta-logo" src="https://rvatech.com/wp-content/uploads/2020/03/META-Logo-Grey.png" alt="meta"></div>
-        </section>
+            <form class="login-form" action="#" method="POST">
+
+                <div class="input-group">
+                    <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Mobile number, username or email"
+                        required
+                                >
+                </div>
+
+                <div class="input-group">
+                    <input 
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Password"
+                        required
+                            >
+                </div>
+
+                <button type="submit" class="login-btn">
+                        Log in
+                </button>
+
+        </form>
+
+        <a href="#" class="forgot-link">
+            Forgot password?
+        </a>
+        </div>
+
+        <div class="new-account">
+            <a class="facebook" href="#"><img src="src/facebook-svgrepo-com.svg" alt="facebook"> Log in with Facebook</a>
+            <a class="acc   " href="#">Create new account</a>
+            <img src="src/meta-logo.png" alt="meta-logo">
+
+        </div>
+
+
+        </div>
     </main>
+
 </body>
+
 </html>
